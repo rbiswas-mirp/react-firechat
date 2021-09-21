@@ -102,7 +102,7 @@ function App() {
                 clipRule="evenodd"
               />
             </svg>
-            React FireChat
+            React Chat
           </h2>
           <p className="mb-8 text-lg text-center">
             The easiest way to chat with people all around the world.

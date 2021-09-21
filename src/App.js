@@ -10,12 +10,12 @@ import Channel from './components/Channel';
 import Loader from './components/Loader';
 
 firebase.initializeApp({
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_AUTH_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: 'AIzaSyDhl3jqKNEApAYT0vSb8O3kXIE83NyF0vc',
+  authDomain: 'react-chat-e3903.firebaseapp.com',
+  projectId: 'react-chat-e3903',
+  storageBucket: 'react-chat-e3903.appspot.com',
+  messagingSenderId: '712800936405',
+  appId: '1:712800936405:web:45216383cdd65903e9dd5c',
 });
 
 const MoonIcon = props => (
@@ -49,8 +49,8 @@ function App() {
   const [darkMode, setDarkMode] = useDarkMode();
 
   const brandLogo = darkMode
-    ? `${process.env.PUBLIC_URL}/logo_white.svg`
-    : `${process.env.PUBLIC_URL}/logo.svg`;
+    ? `127.0.0.1/logo_white.svg`
+    : `127.0.0.1/logo.svg`;
 
   const ThemeIcon = darkMode ? SunIcon : MoonIcon;
 

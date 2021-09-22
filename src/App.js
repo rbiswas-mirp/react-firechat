@@ -49,8 +49,8 @@ function App() {
   const [darkMode, setDarkMode] = useDarkMode();
 
   const brandLogo = darkMode
-    ? `127.0.0.1/logo_white.svg`
-    : `127.0.0.1/logo.svg`;
+    ? `https://www.rahulbiswas.net/assets/android-chrome-144x144.png`
+    : `https://www.rahulbiswas.net/assets/android-chrome-144x144.png`;
 
   const ThemeIcon = darkMode ? SunIcon : MoonIcon;
 
@@ -150,7 +150,7 @@ function App() {
         className="flex-shrink-0 flex items-center justify-between px-4 sm:px-8 shadow-md"
         style={{ height: 'var(--topbar-height)' }}
       >
-        <a href="127.0.0.1">
+        <a href="https://chat.rahulbiswas.net">
           <img src={brandLogo} alt="Logo" width={150} />
         </a>
         <div className="flex items-center">
